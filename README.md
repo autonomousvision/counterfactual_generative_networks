@@ -1,6 +1,6 @@
 # Counterfactual Generative Networks #
 
-#### [[Project]](https://sites.google.com/view/counterfactual-generation/home) [[PDF]](https://openreview.net/pdf?id=BXewfAYMmJw) [[Music Video]](https://youtu.be/JDwaLueR35U) [[Colab]](https://colab.research.google.com/gist/xl-sr/ad93d3918e456fd4cd4aabdcaad87148/generating_counterfactuals.ipynb)
+#### [[Project]](https://sites.google.com/view/counterfactual-generation/home) [[PDF]](https://openreview.net/pdf?id=BXewfAYMmJw) [[Blog]](https://autonomousvision.github.io/cgn/) [[Music Video]](https://youtu.be/JDwaLueR35U) [[Colab]](https://colab.research.google.com/gist/xl-sr/ad93d3918e456fd4cd4aabdcaad87148/generating_counterfactuals.ipynb)
 <img src="media/teaser.gif" width="600">
 
 This repository contains the code for the ICLR 2021 paper "Counterfactual Generative Networks" by [Axel Sauer](https://axelsauer.com/) and [Andreas Geiger](http://www.cvlibs.net/).
