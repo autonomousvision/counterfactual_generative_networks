@@ -84,11 +84,11 @@ class DoubleColoredMNIST(Dataset):
 
     def __getitem__(self, idx):
         i = self.labels[idx] if self.train else np.random.randint(10)
-        back_color = self.background_colors[i]
+        back_color = self.background_colors[i].clone()
         back_color += torch.normal(0, 0.01, (3, 1, 1))
 
         i = self.labels[idx] if self.train else np.random.randint(10)
-        obj_color = self.object_colors[i]
+        obj_color = self.object_colors[i].clone()
         obj_color += torch.normal(0, 0.01, (3, 1, 1))
 
         # get digit
